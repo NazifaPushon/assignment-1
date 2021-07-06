@@ -34,7 +34,7 @@ h1 {
 .one-third {
     width: 33.3%;
     margin: 5%;
-    display: flex;
+    /* display: flex; */
 }
 
 .blue-color {
@@ -147,7 +147,7 @@ h1 {
     width: 90%;
     margin: 0 auto;
     padding: 5%;
-    box-shadow: 10px 10px 40px gray;
+    box-shadow: 10px 10px 40px #b6b6b6;
     border-radius: 15px;
 }
 
@@ -169,7 +169,7 @@ h1 {
 
 
 #our-menu {
-    background-image: url(images/Cake-pops.jpg);
+    background: url(images/Cake-pops.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -200,4 +200,29 @@ h1 {
 
 .price h2 {
     margin-left: 15%;
+}
+
+#contuct div {
+    margin: 5% 5%;
+}
+
+#contuct-info {
+    padding: 2%;
+    padding-bottom: 0;
+    padding-left: 5%;
+    box-shadow: 10px 10px 50px #979797;
+    background-image: linear-gradient(45deg, #0043ff, cyan);
+    border-radius: 15px;
+    color: #fff;
+}
+
+#contuct-info a,
+#contuct-info p {
+    color: #fff;
+    font-size: 20px;
+}
+
+#contuct-img {
+    border-radius: 15px;
+    box-shadow: 10px 10px 50px #979797;
 }
