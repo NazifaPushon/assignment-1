@@ -35,6 +35,7 @@ h1 {
 .one-third {
     width: 33.3%;
     margin: 5%;
+    display: flex;
 }
 
 .blue-color {
