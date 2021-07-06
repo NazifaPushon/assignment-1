@@ -7,7 +7,7 @@ h1,
 h2,
 h3,
 h4 {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
 }
 
 p,
@@ -15,6 +15,24 @@ a {
     font-size: 15px;
     font-family: 'Montserrat', sans-serif;
     text-decoration: none;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+}
+
+.half-width {
+    width: 50%;
+    margin: 0 3%;
+}
+
+.blue-color {
+    color: #2196f3;
 }
 
 .nav-section {
@@ -35,7 +53,7 @@ a {
 
 #resturant-nav-name h2 {
     margin: 0;
-    padding-top: 15px;
+    padding-top: 12px;
     align-content: center;
     font-size: 35px;
     color: white;
@@ -54,4 +72,61 @@ a {
 .nav-item a {
     font-size: 23px;
     color: white;
+}
+
+.landig-page h1 {
+    margin: 30px 0px;
+    word-spacing: 8px;
+}
+
+.landig-page {
+    margin: 0 0 5% 5%;
+    padding: 2%;
+}
+
+.landig-page-container {
+    height: 90vh;
+}
+
+.landig-page p {
+    font-size: 20px;
+    color: #4d4d4d;
+}
+
+.landig-page img {
+    width: 70%;
+}
+
+.button {
+    padding: 10px 45px;
+    border: none;
+    border-radius: 50px;
+    background-image: linear-gradient(100deg, #0e7cd3, #00dbdb);
+}
+
+.button a {
+    color: white;
+    font-size: 23px;
+}
+
+.about-me-item {
+    padding: 0 2%;
+    margin-top: 5%;
+}
+
+.about-me-item img {
+    width: 60%;
+    margin-left: 20%;
+}
+
+.about-me {
+    background-image: url(images/fram1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.about-me-item p {
+    font-size: 20px;
+    margin-bottom: 5%;
 }
