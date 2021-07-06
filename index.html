@@ -17,10 +17,17 @@
       href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap"
       rel="stylesheet"
     />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hind:wght@500&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <section class="nav-section">
+    <section id="nav-section">
       <div class="nav-wrapper">
         <div id="resturant-nav-name">
           <h2>Food Land</h2>
@@ -29,16 +36,18 @@
         <div class="nav-item"><a href="#about-me">About Me</a></div>
         <div class="nav-item"><a href="#recipe-section">Recipes</a></div>
         <div class="nav-item"><a href="#our-menu">Menu</a></div>
-        <div class="nav-item"><a href="#our-menu">Contucts</a></div>
-        <div class="nav-item"><a href="#">Footer</a></div>
+        <div class="nav-item"><a href="#contuct">Contucts</a></div>
+        <div class="nav-item"><a href="#footer">Footer</a></div>
       </div>
     </section>
 
     <section class="container" id="landig-page-container">
       <div class="half-width landig-page">
         <h1>Skip The Diet,</h1>
-        <h1>Just Eat <span class="blue-color">Healthy</span></h1>
-        <h1>With Food Land !!</h1>
+        <h1>Just Eat Healthy</h1>
+        <h1>
+          With <span class="blue-color resturant-name">Food Land !!</span>
+        </h1>
         <p>
           Food for us comes from our relatives, whether they have wings or fins
           or roots. It has a story. It has relationships.
@@ -58,12 +67,13 @@
       <div class="half-width about-me-item">
         <h1>About Me</h1>
         <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero odit
-          modi culpa eveniet. Repellendus totam consectetur, id minima
-          exercitationem ipsam eius, nisi optio nam illo rem, voluptate corporis
-          voluptas architecto! Lorem ipsum dolor sit amet consectetur
-          adipisicing elit. Fugiat cupiditate labore minima optio nulla sit
-          tenetur, est provident ab aut?
+          I am a Chef,entrepreneur,web developer.I started my restaurant
+          business at tha age of 20 . I aslo stared my career as a chef only at
+          the age of 15 . I am also a biginner in web development . I am still
+          learning .Now I am a girl Puska Web developer . I started my
+          restaurant Food Land in 2019 . Now it is a well known restaurant in
+          our city.I am continusly learning new thing . It was my hobby siecns i
+          was little.
         </p>
         <button class="button">
           <a
@@ -88,20 +98,6 @@
           <div class="card">
             <img src="images/card-img-1.png" alt="" />
             <div class="recipe">
-              <h2>Pasta</h2>
-              <p>
-                especially the amount of water, cream or tomato sauce! If you
-                use too little liquid, your noodles will not get cooked all the
-                way through and if you use too much liquid your noodles will get
-                soggy.
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="one-third">
-          <div class="card">
-            <img id="thai-soup-img" src="images/card-img-2.png" alt="" />
-            <div class="recipe">
               <h2>Thai Soup</h2>
               <p>
                 Heat 1 tsp of oil in a pan over medium heat. Add ginger paste,
@@ -114,9 +110,23 @@
         </div>
         <div class="one-third">
           <div class="card">
+            <img id="thai-soup-img" src="images/card-img-2.png" alt="" />
+            <div class="recipe">
+              <h2>Pasta</h2>
+              <p>
+                especially the amount of water, cream or tomato sauce! If you
+                use too little liquid, your noodles will not get cooked all the
+                way through and if you use too much liquid your noodles will get
+                soggy.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="one-third">
+          <div class="card">
             <img src="images/card-img-3.png" alt="" />
             <div class="recipe">
-              <h2>Sandwich</h2>
+              <h2>Veg with Nun</h2>
               <p>
                 This savory side dish has been a family favorite for years. Our
                 12-year-old daughter, Jennifer, is an expert with this recipe,
@@ -170,7 +180,7 @@
               <ul>
                 <li>Frence Fry</li>
                 <li>Chicken Wings</li>
-                <li>Mini Burber</li>
+                <li>Mini Burger</li>
                 <li>Hot Dog</li>
                 <li>Girlic Masrum</li>
                 <li>Mozoralla Stick</li>
@@ -257,34 +267,38 @@
     </section>
     <section class="container" id="contuct">
       <div class="half-width">
-        <img src="images/contuct-8.jpg" alt="" id="contuct-img" />
+        <img src="images/contuct.jpg" alt="" id="contuct-img" />
       </div>
       <div class="half-width" id="contuct-info">
         <h1>Contucts</h1>
         <p>Email : google@yahoo.com</p>
         <p>Phone : 0000111222333</p>
-        <p>Status : Open</p>
+        <p>Status : Open(8 am. - 11 pm.)</p>
         <p>
-          <a href="https://www.foodpanda.com.bd/"
+          <a href="https://www.foodpanda.com.bd/" target="_blank"
             >Online Order : https://www.foodpanda.com.bd/</a
           >
         </p>
         <p>
-          <a href="https://www.facebook.com"
+          <a href="https://www.facebook.com" target="_blank"
             >Facebook Page : https://www.facebook.com</a
           >
         </p>
         <p>
-          <a href="https://www.twitter.com"
+          <a href="https://www.twitter.com" target="_blank"
             >Twitter : https://www.twitter.com</a
           >
         </p>
         <p>
-          <a href="https://www.linkedin.com"
+          <a href="https://www.linkedin.com" target="_blank"
             >LinkedIn : https://www.linkedin.com</a
           >
         </p>
       </div>
     </section>
+    <footer id="footer">
+      <h1 class="blue-color">Food <span id="color-white">Land</span></h1>
+      <p>© Created By Nazifa Mashiat Pushon, A Puska Wed Developer.</p>
+    </footer>
   </body>
 </html>

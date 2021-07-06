@@ -19,6 +19,7 @@ a {
 
 h1 {
     font-size: 50px;
+    color: #414141;
 }
 
 .container {
@@ -34,14 +35,14 @@ h1 {
 .one-third {
     width: 33.3%;
     margin: 5%;
-    /* display: flex; */
 }
 
 .blue-color {
     color: #2196f3;
+    font-family: 'Hind', sans-serif;
 }
 
-.nav-section {
+#nav-section {
     background-image: linear-gradient(251deg, #43caf6, #037af4);
 }
 
@@ -96,15 +97,19 @@ h1 {
 
 .landig-page p {
     font-size: 20px;
-    color: #4d4d4d;
+    color: #000000;
 }
 
 .landig-page img {
-    width: 70%;
+    width: 90%;
+}
+
+.resturant-name {
+    font-size: 70px;
 }
 
 .button {
-    padding: 10px 45px;
+    padding: 15px 45px;
     border: none;
     border-radius: 50px;
     background-image: linear-gradient(100deg, #0e7cd3, #00dbdb);
@@ -216,6 +221,10 @@ h1 {
     color: #fff;
 }
 
+#contuct-info h1 {
+    color: white;
+}
+
 #contuct-info a,
 #contuct-info p {
     color: #fff;
@@ -225,4 +234,20 @@ h1 {
 #contuct-img {
     border-radius: 15px;
     box-shadow: 10px 10px 50px #979797;
+}
+
+#footer {
+    text-align: center;
+    margin-top: 5%;
+    padding: 2%;
+    color: #fff;
+    background: #262626;
+}
+
+#footer p {
+    font-size: 20px;
+}
+
+#color-white {
+    color: white;
 }
