@@ -12,7 +12,7 @@ h4 {
 
 p,
 a {
-    font-size: 15px;
+    font-size: 17px;
     font-family: 'Montserrat', sans-serif;
     text-decoration: none;
 }
@@ -53,12 +53,12 @@ h1 {
     height: 70px;
 }
 
-#resturant-nav-name {
+#restaurant-nav-name {
     width: 30%;
     text-align: center;
 }
 
-#resturant-nav-name h2 {
+#restaurant-nav-name h2 {
     margin: 0;
     padding-top: 8px;
     align-content: center;
@@ -140,6 +140,8 @@ h1 {
 .about-me-item p {
     font-size: 20px;
     margin-bottom: 5%;
+    word-spacing: 5px;
+    text-align: justify;
 }
 
 
